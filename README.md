@@ -10,7 +10,7 @@ The code was not completed due to time constraints. But, it is ready for enhacem
 The solution is to find two nodes; one to the right of the input node and the other to the bottom of it. In short, coordinates of the nodes are to be found to ascertain their exact location in the rectangular grid.
 In input, the width and height of the rectangular grid are to be given. The code was tested at the 2x2 rectangular grid. A variable ‘line’ for width characters is also taken. A cell that has 0 means a valid node and dot for the empty one. The solution should be given like this:
 
-                                                     1  2  3  4  5  6
+                                             1  2  3  4  5  6
 
 ## Tools Used
 Python was used as the core language to perform this task. The following libraries were taken use of during the process.
@@ -28,7 +28,7 @@ Before going ahead, knowledge of python and some of its core libraries like Nump
 If you intend to run the project at codingame, you simply need to copy the code and paste it there on the project quiz link given above. For the local running, you need to have a Python IDE installed like Jupyter Notebook etc.
 One also needs to have all the required libraries properly installed and imported. Numpy doesn’t come with the official Python package. So, it has to be installed and imported manually. The sys library comes packaged with the Python tool. The libraries can be installed with the following command:
 
-                                                 pip install {library-name}
+                                          pip install {library-name}
 
 For Jupyter Notebook, add a ! or a % at the start of the index tab before running the terminal command. If you intend to run it directly in the terminal, you can use the command as it is.
 
